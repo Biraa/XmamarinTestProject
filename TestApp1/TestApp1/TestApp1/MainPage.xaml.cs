@@ -9,9 +9,11 @@ namespace TestApp1
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        //sets the URL for the browser in the page at creation
+        public MainPage(string URL)
         {
             InitializeComponent();
+            Browser.Source = URL;
         }
     }
 }

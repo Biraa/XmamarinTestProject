@@ -13,7 +13,7 @@ namespace TestApp1
         {
             InitializeComponent();
 
-            MainPage = new TestApp1.MainPage();
+            MainPage = new TestApp1.MainPage("http://www.20min.ch");
         }
 
         protected override void OnStart()

@@ -4,8 +4,11 @@
              xmlns:local="clr-namespace:TestApp1"
              x:Class="TestApp1.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <ContentPage.Content>
+
+
+        <WebView x:Name="Browser" WidthRequest="1000" HeightRequest="1000" />
+
+    </ContentPage.Content>
 
 </ContentPage>
