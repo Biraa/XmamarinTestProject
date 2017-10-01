@@ -6,9 +6,10 @@
 
     <StackLayout>
 
-        <Button Text="StackLayout" VerticalOptions="Start" HorizontalOptions="FillAndExpand" />    
+        <Button Text="StackLayout" VerticalOptions="Start" HorizontalOptions="FillAndExpand" />
+        
 
-        <WebView x:Name="Browser" WidthRequest="1000" HeightRequest="1000"  HorizontalOptions="FillAndExpand" />
+        
        
 
     </StackLayout>
