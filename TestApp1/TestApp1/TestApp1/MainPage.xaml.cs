@@ -15,5 +15,9 @@ namespace TestApp1
             InitializeComponent();
             Browser.Source = URL;
         }
+
+        public MainPage(){
+            
+        }
     }
 }
